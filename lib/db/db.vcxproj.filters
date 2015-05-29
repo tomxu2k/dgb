@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{5491b86d-efa6-461b-a438-614eb68d3ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\db_core">
+      <UniqueIdentifier>{5f161f20-fb8c-437b-babd-03dcfaa82142}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DBBrokerIF.h">
+      <Filter>include\db_core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DBConnectionIF.h">
+      <Filter>include\db_core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DBCursorIF.h">
+      <Filter>include\db_core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DBTransactionIF.h">
+      <Filter>include\db_core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DBType_def.h">
+      <Filter>include\db_core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DBStatementIF.h">
+      <Filter>include\db_core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Attribute.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CriteriaIF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EntityArray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EntityIF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EntityManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
